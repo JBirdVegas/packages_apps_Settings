@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/about_settings"
+    android:key="about_settings"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+	android:key="aboutsteeldroid_links"
+	android:title="@string/aboutsteeldroid_links">
+
+        <Preference
+		android:key="aboutsteeldroid_github"
+		android:title="@string/aboutsteeldroid_github"
+        />
+
+        <Preference
+		android:key="aboutsteeldroid_web"
+		android:title="@string/aboutsteeldroid_web"
+        />
+
+        <PreferenceScreen
+		android:key="aboutsteeldroid_changelog"
+		android:fragment="com.android.settings.Changelog"
+		android:title="@string/aboutsteeldroid_changelog_title"
+        />
+
+    </PreferenceCategory>
+
+	<PreferenceCategory
+		android:key="aboutsteeldroid_team"
+		android:title="@string/aboutsteeldroid_team">
+
+        <PreferenceScreen
+		android:key="aboutsteeldroid_chevycam94"
+		android:fragment="com.android.settings.ChevySettings"
+		android:title="@string/aboutsteeldroid_chevycam94"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

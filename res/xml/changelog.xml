@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/aboutsteeldroid_changelog_title"
+    android:key="aboutsteeldroid_changelog"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+	android:key="aboutsteeldroid_changelog"	
+	android:title="@string/aboutsteeldroid_changelog_title"
+    />
+</PreferenceScreen>

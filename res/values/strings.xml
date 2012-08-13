@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- About Steel Droid -->
+	<string name="aboutsteeldroid_title">About Steel Droid</string>
+	<string name="aboutsteeldroid_links">Links</string>
+	<string name="aboutsteeldroid_github">GITHUB</string>
+	<string name="aboutsteeldroid_web">Website</string>
+	<string name="aboutsteeldroid_team">THE DEVELOPER</string>
+	<string name="aboutsteeldroid_chevycam94">ChevyCam94</string>
+	<string name="aboutsteeldroid_me">About Me</string>
+	<string name="aboutsteeldroid_donate">Donate</string>
+	<string name="aboutsteeldroid_changelog_title">Changelog</string>
+	<string name="aboutsteeldroid_changelog">v2.6\n\n* Synced and built as of 8-11-2012\n\n* Updated build fingerprint to JRO03L\n\n* Updated kernel to Popcorn 11.6\n\n* Fixed the toggles layout previews to relflect no swagger\n\n* Updated build id to JRO03L\n\n* Added in fully functional cron service\n\n* Added new nice tweaks\n\n* Tweaked the dalvik system (in testing)\n\n* Added About Steel Droid section in Settings\n\n* Fixed adb remount command\n\n* Removed Unlink Volumes option for now</string>
+	<string name="aboutchevycam94">Hey, I\'m ChevyCam94!\n\nI bring you the Steel Droid linup of custom ROMs.\n\nWhen I first started working on Android, I was only doing battery icon sets.  They gave me the insight as to how Android was structured.  Being a life-long computer tech/nerd, I decided to try to see how far I could stretch my skills.\n\nI built my first ROM for the Droid 1, off of a leak.  Just added some stuff and removed others.  After a few months of playing around, I learned of GITHUB, and how to build from source.  I found out how much easier that was for me, and have built from source every chance I get since then.  That was only 2 years ago.  Now Im building Jellybean, making my own themes, and helping others benefit from some of my work.  Im still learning a lot, thanks to those that have given me advice, sometimes for hours at a time.\n\nThe final result?\n\n! STEEL DROID !</string>
+</resources>
