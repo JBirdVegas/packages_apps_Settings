@@ -17,11 +17,13 @@ public class Changelog extends SettingsPreferenceFragment {
 
 	private Activity mActivity;
         Preference mSteelDroidChangelog;
+        Context mContext;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.changelog);
+        mContext = getActivity().getApplicationContext();
 
         mSteelDroidChangelog = findPreference("aboutsteeldroid_changelog");
     }
@@ -35,15 +37,15 @@ public class Changelog extends SettingsPreferenceFragment {
     }
 
     private void showChangelog() {
-        mActivity = getActivity();
-		new AlertDialog.Builder(mActivity)
-			.setTitle(R.string.aboutsteeldroid_changelog_title)
-			.setMessage(R.string.aboutsteeldroid_changelog)
-			.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-				public void onClick(DialogInterface dialog, int which) {
-					dialog.dismiss();
-				}
-			})
-			.create().show();
+        AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+        builder.setTitle(R.string.aboutsteeldroid_changelog_title);
+        builder.setMessage(R.string.aboutsteeldroid_changelog);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                }
+            });
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
     }
 }
